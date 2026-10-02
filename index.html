@@ -2,142 +2,63 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Proyecto PAEC - Inicio</title>
-  <style>
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: rgb(255, 255, 255);
-      padding: 10px 20px;
-    }
-    .logo-pequeno {
-      width: 70px;
-      height: auto;
-      display: block;
-      margin-bottom: 15px;
-    }
-    .barra-navegacion {
-      display: flex;
-      gap: 15px;
-      margin-top: 10px;
-    }
-    main {
-      display: flex;
-      gap: 20px;
-      padding: 10px;
-    }
-    aside {
-      width: 30%;
-      background-color: rgb(46, 139, 87); 
-      color: white;
-      padding: 15px;
-      border-radius: 8px;
-    }
-    section {
-      width: 70%;
-      background-color: rgb(240, 165, 0); 
-      color: rgb(255, 255, 255);
-      padding: 15px;
-      border-radius: 8px;
-    }
-    .imagen-articulo {
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-      display: block;
-      margin: 15px 0;
-      border-radius: 8px;
-      border: 2px solid white;
-    }
-    .publicidad {
-      background-color: rgba(255, 255, 255, 0.2);
-      border: 2px dashed white;
-      padding: 10px;
-      margin-top: 20px;
-      text-align: center;
-      border-radius: 6px;
-    }
-    .publicidad img {
-      width: 100%;
-      max-width: 180px;
-      height: auto;
-      border-radius: 5px;
-      margin: 8px 0;
-    }
-    .boton-ad {
-      display: inline-block;
-      background-color: white;
-      color: rgb(46, 139, 87);
-      padding: 6px 12px;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 4px;
-      margin-top: 5px;
-      font-size: 13px;
-    }
-    .boton-nav {
-      text-decoration: none;
-      color: rgb(50, 50, 50);
-      background-color: rgb(230, 230, 230);
-      padding: 6px 12px;
-      border-radius: 4px;
-      font-size: 14px;
-      font-family: 'Times New Roman', Times, serif;
-      transition: all 0.3s;
-    }
-    .boton-nav:hover {
-      background-color: rgb(200, 200, 200);
-    }
-    .boton-nav.activo {
-      background-color: rgb(46, 139, 87);
-      color: rgb(255, 255, 255);
-      font-weight: bold;
-    }
-  </style>
+  <title>Huellitas Comunitarias - Inicio</title>
+
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
+
   <header>
     <div>
-      <h1 style="margin: 0; color: rgb(46, 139, 87);">Proyecto PAEC</h1>
-      <p style="margin: 5px 0 10px 0;">Programa de Asistencia y Esperanza Canina/Felina</p>
+      <h1>Huellitas Comunitarias</h1>
+      <p>Proyecto PAEC - Por el bienestar animal</p>
       
-      <div class="barra-navegacion">
+      <nav class="barra-navegacion">
         <a href="index.html" class="boton-nav activo">Inicio</a>
         <a href="adopciones.html" class="boton-nav">Adopciones</a>
         <a href="donaciones.html" class="boton-nav">Donaciones</a>
-      </div>
+      </nav>
     </div>
-    <img src="https://cdn-icons-png.flaticon.com/512/194/194279.png" alt="logo de huella" class="logo-pequeno">
+    
+    <img src="img/logo.png" alt="Logo de Huellitas" class="logo-pequeno">
   </header>
 
   <main>
+    
     <aside>
-      <h3>¿Cómo ayudar?</h3>
-      <p>Tu apoyo hace la diferencia en la vida de cientos de animales rescatados de la calle.</p>
+      <h3>¿Por qué ayudamos?</h3>
+      <p>Creemos que el aprendizaje sale del aula cuando mejora nuestra comunidad.</p>
+      
       <div class="publicidad">
-        <h4 style="margin: 5px 0;">¡ÚNETE AL VOLUNTARIADO!</h4>
-        <p style="font-size: 13px; margin: 5px 0;">Necesitamos manos para pasear, limpiar y dar amor.</p>
-        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Perros felices">
+        <h4>¡Sé Voluntario!</h4>
+        <p>Súmate a nuestros paseos de fin de semana.</p>
+        <img src="img/voluntarios.jpg" alt="Voluntarios ayudando">
         <br>
         <a href="donaciones.html" class="boton-ad">Saber más</a>
       </div>
     </aside>
 
+
     <section>
       <article>
         <h2>Presentación del Proyecto PAEC</h2>
-        <p>El <strong>Proyecto PAEC</strong> nace de la necesidad urgente de brindar una segunda oportunidad a los animales en situación de abandono. Nuestro propósito es rescatar, rehabilitar y reubicar a perros y gatos que han sufrido maltrato o negligencia.</p>
+        <p>El proyecto <strong>Huellitas Comunitarias</strong> busca que lo aprendido en clase no se quede en una calificación, sino que genere un impacto real en nuestra sociedad.</p>
         
-        <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="imagen-articulo" alt="Perro rescatado">
+        <img src="img/inicio.jpg" class="imagen-articulo" alt="Perrito rescatado en adopción">
 
-        <p>Buscamos no solo encontrarles un hogar, sino también educar a la comunidad sobre la tenencia responsable de mascotas, la importancia de la esterilización y el respeto a la vida animal.</p>
+        <p>Nuestro propósito es facilitar la adopción responsable de animales en situación de calle y gestionar donaciones de alimentos y limpieza para los refugios locales.</p>
         
-        <blockquote style="font-style: italic; font-size: 1.1em; background: rgba(0,0,0,0.1); padding: 10px; border-left: 4px solid white;">
-          "El bienestar animal es responsabilidad de todos. Un animal no es un juguete, es un ser vivo que siente y merece respeto, amor y una vida digna. Adoptar salva vidas."
+        
+        <blockquote style="font-style: italic; background: rgba(255,255,255,0.4); padding: 15px; border-left: 5px solid #264653; border-radius: 5px;">
+          "El respeto por los animales es un reflejo de nuestra humanidad. No compres raza, adopta esperanza."
         </blockquote>
       </article>
     </section>
   </main>
+
+  <footer>
+    <p>&copy; 2026 Proyecto PAEC - Huellitas Comunitarias. Elaborado por [Tu Nombre].</p>
+  </footer>
+
 </body>
 </html>
